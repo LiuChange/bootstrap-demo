@@ -1,0 +1,205 @@
+/*************通用样式-begin***************/
+
+body{
+    color: #000;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+
+ul,ol{
+    list-style: none;
+}
+
+
+
+/*设置字体*/
+@font-face {
+    font-family: lk;
+    src: url('../fonts/lk.eot') format('embedded-opentype'),
+    url('../fonts/lk.svg') format('svg'),
+    url('../fonts/lk.ttf') format('truetype'),
+    url('../fonts/lk.woff') format('woff');
+}
+
+[class^="icon-"],
+[class*=" icon-"]{
+    font-family: lk;
+    font-style: normal;
+}
+
+
+
+
+
+/*************通用样式-end***************/
+
+
+
+
+
+
+/*************头部-begin***************/
+#lk_header{
+
+}
+#lk_header .top-bar{
+    height: 40px;
+    line-height: 39px;
+    border-bottom: 1px solid #cccccc;
+}
+#lk_header .top-bar .container .row>div+div{
+    border-left: 1px solid #cccccc;
+}
+#lk_header .top-bar .container .row .top-bar-1 a{
+    position: relative;
+}
+#lk_header .top-bar .container .row .top-bar-1 a img{
+    position: absolute;
+     left: 50% ;
+    transform: translateX(-50%);
+    top: 20px;
+    z-index: 999;
+    display: none;
+}
+#lk_header .top-bar .container .row .top-bar-1 a:hover img{
+    display: block;
+}
+.icon-phone::before{
+    content:'\e958';
+    font-size: 15px;
+}
+.icon-tel::before{
+    content:'\e942';
+    font-size: 15px;
+}
+
+#lk_header .navbar-lk{
+    border-bottom: 1px solid #cccccc;
+}
+#lk_header .navbar-lk .navbar-brand{
+    height: 90px;
+    margin-left: 15px;
+    margin-right: 60px;
+}
+#lk_header .navbar-lk .navbar-brand img{
+    width: 130px;
+}
+
+
+#lk_header .navbar-lk .navbar-nav>li>a{
+    height: 70px;
+    align-items: center;
+    display: flex;
+    margin-right: 10px;
+
+}
+#lk_header .navbar-lk .navbar-nav>li>a:hover{
+    border-bottom: 2px solid purple;
+}
+
+
+#lk_header .navbar-lk .navbar-toggler{
+    margin-top: 5px;
+}
+
+/*************头部-end***************/
+
+
+
+
+
+/*************轮播图-begin***************/
+#lk_carouse1 {
+
+}
+#lk_carouse1 .carousel-item{
+    background: no-repeat center center;
+    background-size: cover;
+
+}
+#lk_carouse1 .carousel-item img{
+    width: 100%;
+}
+
+
+@media screen and (min-width:900px){
+    #lk_carouse1 .carousel-item{
+        height: 410px;
+    }
+}
+
+
+/*************轮播图-end***************/
+
+
+
+
+
+/*************热门课程-begin***************/
+#lk_hot{
+
+
+
+}
+/*************热门课程-end***************/
+
+
+
+
+/*************产品中心-begin***************/
+#lk_product{
+    background-color: #f0f0f0;
+}
+
+#lk_product .nav-item{
+    font-size: 18px;
+
+}
+
+
+#lk_product .nav-item a{
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+
+}
+#lk_product .nav-item a.active{
+    border-bottom: 2px solid purple;
+    background: transparent;
+}
+/*************产品中心-end***************/
+
+
+
+
+/*************关于我们-begin***************/
+#lk_about{
+
+}
+/*************关于我们-end***************/
+
+
+
+
+
+/*************友情链接-begin***************/
+#lk_link{
+
+}
+/*************友情链接-end***************/
+
+
+
+
+
+/*************尾部-begin***************/
+#lk_footer{
+    width: 100%;
+    height: 200px;
+    background: url('./../images/ft_bg.png') no-repeat center center;
+}
+/*************尾部-begin***************/
